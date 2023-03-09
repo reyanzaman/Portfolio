@@ -1,0 +1,64 @@
+body{
+    background-color: #191922;
+    color: aliceblue;
+    font-family: helvetica, arial;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #f5c438;
+}
+
+.sidebar{
+    position: fixed;
+    right: 0;
+    background-color: #24242e;
+    width: 5rem;
+    height: 100rem;
+    padding: 2em 0 0 0;
+    top: 0;
+}
+
+.vertical{
+    writing-mode: vertical-rl;
+    font-family: 'Tilt Warp', cursive;
+}
+
+.icon1{
+    position: fixed;
+    right: 1.5rem;
+    bottom: 3rem;
+    color:rgb(174, 174, 174);
+}
+
+.icon1:hover, .icon2:hover{
+    color: white;
+}
+
+.icon2{
+    position: fixed;
+    right: 1.5rem;
+    bottom: 7rem;
+    color:rgb(174, 174, 174);
+}
+
+.cv-btn{
+    position: fixed;
+    color: white;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.cv-pad{
+    padding: 0 1em;
+}
+
+.cv-text{
+    display: inline-block;
+    margin: 0em 0.4em 0em 0em;
+    font-weight: bold;
+}
