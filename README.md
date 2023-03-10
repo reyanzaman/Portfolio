@@ -19,4 +19,4 @@ Github Pages Link: https://reyanzaman.github.io/Portfolio/
 
 ![HomePage_Creative_Projects](screenshots/3.png?raw=true "Creative Projects")
 
-![HomePage_Experience](screenshots/4.png?raw=true "Experience")
+![HomePage_Experience](screenshots/4a.png?raw=true "Experience")
