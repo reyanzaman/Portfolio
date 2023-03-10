@@ -18,7 +18,7 @@ a:hover, .home:hover{
 
 h5{
     font-size: .9em;
-    margin: 0.5em 0;
+    margin: 0em 3em 0.5em 0;
 }
 
 .sidebar{
@@ -81,7 +81,10 @@ h5{
     height: 100px;
     color:white;
     padding: 10px 0 0 14px;
-    margin: 0.2em 0;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
 }
 
 .icon-2{
@@ -92,7 +95,7 @@ h5{
     height: 200px;
     color:white;
     padding: 10px 0 0 14px;
-    margin: 0.2em 0;
+    margin: 0.2em 0 3em 0;
 }
 
 .image-icon{
@@ -223,4 +226,24 @@ h5{
     margin-top: 15em;
     font-family: 'Oswald', monospace;
     font-weight: 300;
+}
+
+.job-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin-left: 1.5em;
+    white-space: nowrap;
+}
+
+.job-title-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size:1em;
+    margin:3em 0 3em 2em;
 }
