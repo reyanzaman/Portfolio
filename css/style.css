@@ -28,6 +28,13 @@ a:hover{
     font-family: 'Tilt Warp', cursive;
 }
 
+.vertical-2{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    padding: 0.5em 0.2em 0.1em 0.2em;
+}
+
+
 .icon1{
     position: fixed;
     right: 1.5rem;
@@ -35,15 +42,22 @@ a:hover{
     color:rgb(174, 174, 174);
 }
 
-.icon1:hover, .icon2:hover{
-    color: white;
-}
-
 .icon2{
     position: fixed;
     right: 1.5rem;
     bottom: 7rem;
     color:rgb(174, 174, 174);
+}
+
+.icon3{
+    position: fixed;
+    right: 1.5rem;
+    bottom: 11rem;
+    color:rgb(174, 174, 174);
+}
+
+.icon1:hover, .icon2:hover, .icon3:hover{
+    color: white;
 }
 
 .cv-btn{
@@ -61,4 +75,16 @@ a:hover{
     display: inline-block;
     margin: 0em 0.4em 0em 0em;
     font-weight: bold;
+}
+
+.navigation{
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-bar{
+    position: fixed;
+    top: 0;
+    margin: 2em 0.1em;
 }
