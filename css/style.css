@@ -15,8 +15,9 @@ a:hover, .home:hover{
     color: #f5c438;
 }
 
-hr{
-    border: 2px solid grey;
+h5{
+    font-size: .9em;
+    margin: 0.5em 0;
 }
 
 .sidebar{
@@ -66,6 +67,28 @@ hr{
     border-radius: 15px;
     width: 100px;
     height: 100px;
+    color:white;
+    padding: 10px 0 0 14px;
+    margin: 0.2em 0;
+}
+
+.icon-1{
+    background: #24242d;
+    border: 2px solid grey;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    color:white;
+    padding: 10px 0 0 14px;
+    margin: 0.2em 0;
+}
+
+.icon-2{
+    background: #24242d;
+    border: 2px solid grey;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
     color:white;
     padding: 10px 0 0 14px;
     margin: 0.2em 0;
@@ -133,7 +156,7 @@ hr{
 
 .scroll-skills{
     position: relative;
-    margin-top: 38em;
+    margin-top: 35em;
     text-align: center;
     margin-right: 2em;
 }
@@ -175,4 +198,20 @@ hr{
 
 .img-proj:hover{
     box-shadow: 0em 0.4em #f5c438;
+}
+
+.job-icon{
+    padding-right: 13px;
+    padding-top: 3px;
+}
+
+.event-icon{
+    padding-right: 13px;
+    padding-top: 20px;
+    width: 150px;
+}
+
+.icon-1:hover, .icon-2:hover{
+    border: 3px solid rgb(140, 139, 120);
+    background: #dbdbd2;
 }
