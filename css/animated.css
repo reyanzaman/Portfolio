@@ -64,8 +64,7 @@
 
 .rel-cont{
     display:flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;
     margin-right: 10em;
 }
 
