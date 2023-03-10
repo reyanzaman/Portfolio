@@ -15,6 +15,8 @@ Github Pages Link: https://reyanzaman.github.io/Portfolio/
 
 ![HomePage_Skills](/screenshots/2.png?raw=true "Skills")
 
-![HomePage_Projects](screenshots/3.png?raw=true "Projects")
+![HomePage_Programming_Projects](screenshots/5.png?raw=true "Programming Projects")
+
+![HomePage_Creative_Projects](screenshots/3.png?raw=true "Creative Projects")
 
 ![HomePage_Experience](screenshots/4.png?raw=true "Experience")
