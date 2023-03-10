@@ -11,7 +11,7 @@ a{
     color: white;
 }
 
-a:hover{
+a:hover, .home:hover{
     color: #f5c438;
 }
 
@@ -27,6 +27,11 @@ hr{
     height: 100rem;
     padding: 2em 0 0 0;
     top: 0;
+}
+
+.home{
+    color: white;
+    margin: 0 0 .3em .6em;
 }
 
 .vertical{
@@ -126,22 +131,48 @@ hr{
     margin: 2em 0.1em;
 }
 
-.scroll{
+.scroll-skills{
     position: relative;
     margin-top: 38em;
     text-align: center;
     margin-right: 2em;
 }
 
-.skill-container{
+.scroll-projects{
+    position: relative;
+    margin-top: 17em;
+    text-align: center;
+    margin-right: 2em;
+}
+
+.scroll-experience{
+    position: relative;
+    text-align: center;
+    margin-right: 2em;
+}
+
+.category-container{
     margin: 4rem 10rem 7rem 10rem;
     background-color: #101013;
     border-radius: 2em;
     box-shadow: 0em 0.2em #f5c438;
+    text-align: center;
+}
+
+.category-container-2{
+    margin: 4rem 10rem 7rem 10rem;
+    background-color: #101013;
+    border-radius: 2em;
+    box-shadow: 0em 0.4em #f5c438;
+    text-align: center;
 }
 
 .sub-title{
     text-align: center;
     padding: 2em;
     font-family: 'Roboto', sans-serif;
+}
+
+.img-proj:hover{
+    box-shadow: 0em 0.4em #f5c438;
 }
