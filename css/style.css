@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 body{
     background-color: #191922;
@@ -156,7 +157,7 @@ h5{
 
 .scroll-skills{
     position: relative;
-    margin-top: 35em;
+    margin-top: 13em;
     text-align: center;
     margin-right: 2em;
 }
@@ -214,4 +215,12 @@ h5{
 .icon-1:hover, .icon-2:hover{
     border: 3px solid rgb(140, 139, 120);
     background: #dbdbd2;
+}
+
+.greetings{
+    display: flex;
+    justify-content: center;
+    margin-top: 15em;
+    font-family: 'Oswald', monospace;
+    font-weight: 300;
 }
