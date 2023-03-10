@@ -64,11 +64,7 @@ a:hover{
     position: fixed;
     color: white;
     bottom: 1rem;
-    left: 1rem;
-}
-
-.cv-pad{
-    padding: 0 1em;
+    left: 1.5rem;
 }
 
 .cv-text{
