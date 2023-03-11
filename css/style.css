@@ -7,6 +7,12 @@ body{
     font-family: helvetica, arial;
 }
 
+hr{
+    border: 2px solid grey;
+    margin: 1em auto;
+    width: 75%;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -26,14 +32,14 @@ h5{
     right: 0;
     background-color: #24242e;
     width: 5rem;
-    height: 100rem;
+    height: 100%;
     padding: 2em 0 0 0;
     top: 0;
 }
 
 .home{
     color: white;
-    margin: .5em 0 .75em .95em;
+    margin: .5em 0 .75em .45em;
 }
 
 .vertical{
@@ -161,7 +167,7 @@ h5{
 
 .scroll-skills{
     position: relative;
-    margin-top: 13em;
+    margin-top: 10em;
     text-align: center;
     margin-right: 2em;
 }
@@ -247,4 +253,9 @@ h5{
     font-weight: bold;
     font-size:1em;
     margin:3em 0 3em 2em;
+}
+
+.video{
+    width: 47.5vw;
+    height: 25rem;
 }
