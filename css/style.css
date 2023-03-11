@@ -39,7 +39,7 @@ h5{
 
 .home{
     color: white;
-    margin: .5em 0 .75em .45em;
+    margin: 0em 0 .3em .45em;
 }
 
 .vertical{
@@ -167,7 +167,7 @@ h5{
 
 .scroll-skills{
     position: relative;
-    margin-top: 16em;
+    margin-top: 7em;
     text-align: center;
     margin-right: 2em;
 }
