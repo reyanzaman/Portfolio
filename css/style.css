@@ -8,9 +8,9 @@ body{
 }
 
 hr{
-    border: 2px solid grey;
+    border: 1.75px solid grey;
     margin: 1em auto;
-    width: 75%;
+    width: 50%;
 }
 
 a{
@@ -24,7 +24,19 @@ a:hover, .home:hover{
 
 h5{
     font-size: .9em;
-    margin: 0em 3em 0.5em 0;
+}
+
+.parent-class{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 3vh 0;
+}
+
+.footer{
+    text-align: center;
+    margin-left: 2vw;
 }
 
 .sidebar{
@@ -39,7 +51,7 @@ h5{
 
 .home{
     color: white;
-    margin: 0em 0 .3em .45em;
+    margin: 0em 0 .3em 0em;
 }
 
 .vertical{
@@ -62,7 +74,7 @@ h5{
     height: 85px;
     color:white;
     padding: 10px 0 0 14px;
-    margin: 0.2em 0;
+    margin: 0.5em auto;
 }
 
 .icon:hover, .icon-0:hover{
@@ -77,7 +89,7 @@ h5{
     height: 100px;
     color:white;
     padding: 10px 0 0 14px;
-    margin: 0.2em 0;
+    margin: 0.2em auto;
 }
 
 .icon-1{
@@ -88,27 +100,26 @@ h5{
     height: 100px;
     color:white;
     padding: 10px 0 0 14px;
+    margin: auto;
     margin-bottom: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
 }
 
 .icon-2{
     background: #24242d;
     border: 2px solid grey;
     border-radius: 15px;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     color:white;
-    padding: 10px 0 0 14px;
-    margin: 0.2em 0 3em 0;
+    padding: 0 0 0 14px;
+    margin: 0.2em auto 3em auto;
 }
 
 .image-icon{
     filter: invert(100%);
     padding-right: 13px;
     padding-top: 3px;
+    margin: auto;
 }
 
 .image-icon:hover{
@@ -162,48 +173,39 @@ h5{
 .navigation-bar{
     position: fixed;
     top: 0;
-    margin: 2em 0.1em;
+    left: 0;
+    margin: 2em 1em;
 }
 
 .scroll-skills{
     position: relative;
     margin-top: 7em;
     text-align: center;
-    margin-right: 2em;
 }
 
 .scroll-projects{
     position: relative;
-    margin-top: 8em;
+    margin: auto;
     text-align: center;
-    margin-right: 2em;
 }
 
 .scroll-experience{
     position: relative;
     text-align: center;
-    margin-right: 2em;
+    margin:auto;
 }
 
 .category-container{
-    margin: 4rem 10rem 7rem 10rem;
+    margin: 4rem 0 7rem 0;
     background-color: #101013;
     border-radius: 2em;
     box-shadow: 0em 0.2em #f5c438;
-    text-align: center;
-}
-
-.category-container-2{
-    margin: 4rem 10rem 7rem 10rem;
-    background-color: #101013;
-    border-radius: 2em;
-    box-shadow: 0em 0.4em #f5c438;
-    text-align: center;
+    padding: 0 4em;
 }
 
 .sub-title{
     text-align: center;
-    padding: 2em;
+    padding: 1.5em;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -236,26 +238,19 @@ h5{
 }
 
 .job-title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100px;
-    margin-left: 1.5em;
+    margin-bottom: 1em;
     white-space: nowrap;
 }
 
 .job-title-2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100px;
+    margin: 2.5em 1em 2.5em 0;
+    white-space: nowrap;
     white-space: nowrap;
     font-weight: bold;
     font-size:1em;
-    margin:3em 0 3em 2em;
 }
 
 .video{
-    width: 47.5vw;
-    height: 25rem;
+    width: 100%;
+    height: 20.5em;
 }
