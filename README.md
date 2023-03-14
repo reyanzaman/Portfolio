@@ -7,8 +7,6 @@ Libraries: Bootstrap, FontAwesome, Google Fonts
 
 Github Pages Link: https://reyanzaman.github.io/Portfolio/
 
-#Site is not mobile friendly yet
-
 
 <h2>Website Screenshots</h2><br />
 
@@ -23,6 +21,6 @@ Github Pages Link: https://reyanzaman.github.io/Portfolio/
 
 ![HomePage_Experience](screenshots/5.png?raw=true "Experience")
 
-![HomePage_Mobile_Home](screenshots/6.png?raw=true "Mobile_Home")
+![HomePage_Mobile_Home](screenshots/6a.png?raw=true "Mobile_Home")
 
 ![HomePage_Mobile_Experience](screenshots/7.png?raw=true "Mobile_Experience")
