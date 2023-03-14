@@ -7,8 +7,6 @@ Libraries: Bootstrap, FontAwesome, Google Fonts
 
 Github Pages Link: https://reyanzaman.github.io/Portfolio/
 
-#Site is not mobile friendly yet
-
 
 <h2>Website Screenshots</h2><br />
 
