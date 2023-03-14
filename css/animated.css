@@ -85,7 +85,7 @@
     text-align: left;
     height: 45px;
     overflow: hidden;
-    width: 50rem;
+    width: auto;
 }
 
 .carousel .change_outer .change_inner {
