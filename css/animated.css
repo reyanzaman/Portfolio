@@ -85,11 +85,12 @@
     text-align: left;
     height: 45px;
     overflow: hidden;
-    width: auto;
+    width: 17rem;
 }
 
 .carousel .change_outer .change_inner {
     position: relative;
+    width: auto;
     animation: rotate 11s ease-in-out infinite;
 }
 
